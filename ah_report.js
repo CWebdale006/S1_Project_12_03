@@ -58,10 +58,6 @@ donorTable += "</table>";
 // Sets the innerHTML property of the div element with the ID "donorTable" to the value of the donorTable variable. 
 document.getElementById("donorTable").innerHTML = donorTable;
 
-
-
-
-
 function calcSum(donorAmt) {
       donationTotal += donorAmt[9];
 }
